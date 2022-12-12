@@ -17,7 +17,7 @@ default_args = {
 with DAG(
     dag_id='etl2',
     description='Data transformation and loading to DDS',
-    tags=['dds', 'test_task'],
+    tags=['dds'],
     default_args=default_args
 ) as dag:
 

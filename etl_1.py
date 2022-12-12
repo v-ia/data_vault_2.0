@@ -17,7 +17,7 @@ default_args = {
 with DAG(
     dag_id='etl1',
     description='Data extraction from API and loading to STG',
-    tags=['stg', 'test_task'],
+    tags=['stg'],
     default_args=default_args
 ) as dag:
 
